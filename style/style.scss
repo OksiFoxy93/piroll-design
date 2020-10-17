@@ -1,0 +1,111 @@
+@import "bootstrap.min.css";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap";
+@import "media-queries.css";
+@import "owl.carousel.min.css";
+@import "owl.theme.default.min.css";
+
+
+$font-montserrat: 'Montserrat', sans-serif;
+$font-nunito:  'Nunito Sans', sans-serif;
+
+.main_banner {
+  background-color: #e9e9e9;
+  header {
+    background-color: #e9e9e9;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+      .navbar-light {
+        padding: 25px 0 25px 0;
+        .nav-link {
+          font: 12px/12px $font-montserrat;
+          color: #191919;
+          &:hover {
+            color: #10c9c3;
+          }
+        }
+        .active {
+          .nav-link {
+            color: #10c9c3;
+          }
+        }
+      }
+  }
+  h1 {
+    font: 38px/38px $font-montserrat;
+    color: #1d1d1d;
+    margin-bottom: 30px;
+  }
+  p {
+    color: #787878;
+    font: 18px/30px $font-nunito;
+    margin-bottom: 35px;
+  }
+}
+
+.btn {
+  background-color: #10c9c3;
+  font: 12px/35px $font-montserrat;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 0;
+}
+
+h2 {
+  font: 30px/30px $font-montserrat;
+  color: #191919;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #787878;
+  font: 16px/25px $font-nunito;
+  margin-bottom: 40px;
+}
+
+.about-us {
+  img {
+    margin-bottom: 90px;
+  }
+}
+
+.skills {
+  background-color: #f8f9f9;
+  padding-top: 60px;
+  padding-bottom: 140px;
+  p {
+    font: 12px/12px $font-montserrat;
+    color: #000000;
+    margin-bottom: 16px;
+    margin-top: 35px;
+    span {
+      margin-left: 18px;
+    }
+  }
+  .progress {
+    background-color: #d8d8d8;
+    .progress-bar {
+      background-color: #10c9c3;
+    }
+  }
+  .gray {
+    background-color: #e9e9e9;
+  }
+}
+
+.experience {
+  background-color: #10c9c3;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  p {
+    font: 12px/12px $font-montserrat;
+    margin-bottom: 16px;
+    margin-left: 30px;
+  }
+  p.quantity{
+    font: 18px/18px $font-montserrat;
+    margin-bottom: 12px;
+    margin-top: 17px;
+  }
+}

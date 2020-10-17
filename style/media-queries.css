@@ -1,0 +1,519 @@
+@media only screen and (max-width: 1024px) {
+    .about, .last_post, .worker_all, .show_work, .contact {
+        margin-bottom: 80px;
+    }
+
+    .contact .map{
+        max-width: 100%;
+    }
+
+    .paragraph {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    /*START ABOUT*/
+
+    .icon-down.about{
+        top: 85%;
+    }
+
+    .first_screen.about_page {
+        background-position: center;
+        margin-bottom: 60px;
+    }
+
+    .text_about {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 60px;
+    }
+
+    .services {
+        display: block;
+        max-width: 100%;
+    }
+
+    .services .services_page {
+        width: 100%;
+    }
+
+    .services .services_info {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .services .services_info .services_title {
+        margin-bottom: 60px;
+
+    }
+    .services .services_info .services_details {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    /*START CONTACT*/
+
+    .first_screen.contact_page {
+        margin-bottom: 75px;
+    }
+
+    /*START WORK*/
+
+    .first_screen.work_page {
+        margin-bottom: 50px;
+    }
+
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .ui-dialog{
+        width: 350px!important;
+        margin: auto;
+    }
+
+    .dialog_email_form {
+        max-width: 320px;
+        font-size: 10px;
+    }
+
+    .dialog_email_form .dialog_email {
+        width: 300px;
+    }
+
+    .dialog_button_form {
+        max-width: 320px;
+    }
+
+    .dialog_button_form a.button_facebook {
+        margin-bottom: 50px;
+    }
+
+
+    .first_screen.index {
+        background-image: url("../images/first_sreen_mobile_index.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .first_screen .head .nav_bar .menu{
+        display: none;
+    }
+
+    nav {
+        transform: none;
+        position: fixed;
+        width: 100px;
+        height: 100px;
+    }
+
+    .first_screen.contact_page nav.nav-open, .first_screen.blog_page nav.nav-open, .first_screen.work_page nav.nav-open {
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav.nav-open {
+        transform: none;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+    }
+
+    nav.nav-open .menu-btn {
+        background: none;
+    }
+
+    nav .menu-btn {
+        background-color: rgba(37, 48, 54, 0.6);
+        top: 0;
+        right: 0;
+        padding: 23px 35px 23px 35px;
+    }
+
+    nav .menu-btn .line {
+        position: relative;
+        right: 12px;
+    }
+
+    .first_screen .logo_background {
+        background-color: rgba(37, 48, 54, 0.3);
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .first_screen .banner {
+        top: 36%;
+        bottom: 0;
+    }
+
+    .first_screen .banner h1 {
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 50px;
+    }
+
+    .icon-down-klik {
+        display: block;
+        position: relative;
+        padding-bottom: 450px;
+    }
+
+    @keyframes icon-down-klik{
+        0%  { bottom: 0; }
+        100% { bottom: 50px; }
+    }
+
+    .icon-down-klik {
+        animation: icon-down-klik 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+    }
+
+    .about, .last_post, .worker_all, .show_work {
+        margin-bottom: 80px;
+    }
+
+    .paragraph {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .show_work {
+        display: block;
+    }
+
+    .show_work .your_work {
+        width: 100%;
+        border: none;
+    }
+
+    .worker_all .worker {
+        display: block;
+        width: 100%;
+    }
+
+    .worker_all .worker .worker_data {
+        margin: 15px;
+        padding-bottom: 15px;
+    }
+
+    .worker_all .worker .worker_data, .worker_all .worker .worker_data .workman, .worker_all .worker .worker_data img {
+        max-width: 100%;
+    }
+
+    .worker_all .worker .position {
+        margin-bottom: 8px;
+    }
+
+    .worker_all .worker .name {
+        margin-bottom: 15px;
+    }
+
+    .last_post .post {
+        display: block;
+        margin: 15px 15px 35px 15px;
+        height: 100%;
+    }
+
+    .last_post .post .post_picture, .last_post .post .post_info {
+        width: 100%;
+    }
+
+    .last_post .post .post_info {
+        padding: 20px 15px 30px 15px;
+    }
+
+    .last_post .post_info .post_data{
+        margin-bottom: 10px;
+    }
+
+    .last_post .post_info .post_title{
+        margin-bottom: 20px;
+    }
+
+    .last_post .post_info .post_description{
+        margin-bottom: 45px;
+    }
+
+    .last_post .post_info {
+        overflow: inherit;
+    }
+
+    .contact {
+        margin: 15px;
+    }
+
+    .contact .map{
+        max-width: 100%;
+    }
+
+    .contact .contact_info {
+        padding-bottom: 15px;
+    }
+
+    .contact .contact_info .contact_title {
+        margin-bottom: 5px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .contact .contact_info .contact_details {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .contact .contact_info .location, .contact .contact_info .fax, .contact .contact_info .phone, .contact .contact_info .contact_email {
+        padding: 0 15px 0 15px;
+    }
+
+    footer .footer {
+        display: block;
+        line-height: 35px;
+        padding: 15px;
+    }
+
+    /*START ABOUT*/
+
+    .first_screen.about_page {
+        background-position: center;
+        margin-bottom: 60px;
+    }
+
+    .text_about {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 60px;
+    }
+
+    .services {
+        display: block;
+        max-width: 100%;
+    }
+
+    .services .services_page {
+        width: 100%;
+    }
+
+    .services .services_info {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .services .services_info .services_title {
+        margin-bottom: 60px;
+    }
+    .services .services_info .services_details {
+        display: block;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .services .services_info .services_text, .services .services_info .services_list {
+        padding: 0;
+        width: 100%;
+    }
+
+    .services .services_info .services_text {
+        margin-bottom: 60px;
+    }
+
+    /*START CONTACT*/
+    .first_screen.contact_page {
+        background-image: none;
+        height: 160px;
+        margin-bottom: 0;
+    }
+
+    .contact_sheet1, .contact_sheet2 {
+        display: block;
+    }
+
+    .contact .address, .contact .number, .contact .contact_sheet1 .contact_img, .contact_sheet2 .description {
+        width: 100%;
+    }
+
+    .contact .contact_sheet1 img {
+        width: 100%;
+    }
+
+    .contact .address {
+        border: none;
+    }
+
+    .contact_sheet2 .description{
+        padding: 35px;
+    }
+
+    .button.email {
+        margin-bottom: 60px;
+    }
+
+    .contact.contact_details {
+        margin-bottom: 60px;
+    }
+
+    /*START WORK*/
+
+    .first_screen.work_page {
+        background-position: center;
+        margin-bottom: 60px;
+        height: 100vh;
+    }
+
+    /*START BLOG*/
+
+    .first_screen.blog_page {
+        background-image: none;
+        height: 0;
+        margin-bottom: 0;
+    }
+
+    .blog_all .blog {
+        display: block;
+        padding: 0;
+    }
+
+    .blog .blog_post, .blog .resent_post {
+        width: 100%;
+    }
+
+    .blog .blog_post .post1, .blog .blog_post .post2 {
+        padding: 30px 15px 45px 15px;
+    }
+
+    .blog .blog_post .post1 {
+        padding-top: 120px;
+    }
+
+    .blog .blog_post img {
+        margin-bottom: 20px;
+    }
+
+    .blog .blog_post .post_title {
+        margin-bottom: 10px;
+    }
+
+    .blog .blog_post .post_description {
+        margin-bottom: 50px;
+    }
+
+    .blog .resent_post {
+        max-width: none;
+        padding: 50px 15px 25px 15px;
+    }
+
+    .blog_all .blog_button {
+        padding-bottom: 35px;
+    }
+
+    /*START PROJECT*/
+
+    .first_screen.project_page {
+        background-position: center;
+    }
+
+    .first_screen.project_page .icon-down-klik {
+        display: block;
+    }
+
+    .icon-down.project-icon {
+    top: 85%;
+    }
+
+    .owl-dots {
+        left: 45%;
+    }
+
+    .project {
+        display: block;
+        margin: 60px 0 20px 0;
+        padding: 15px;
+    }
+
+    .project_info h1 {
+        margin-bottom: 60px;
+    }
+
+    .project_info p {
+        margin-bottom: 60px;
+    }
+
+    .project .project_info, .project .project_miniature {
+        max-width: none;
+    }
+
+    .project .project_info {
+        padding: 0;
+    }
+
+    .project_miniature .your_work {
+        margin-bottom: 20px;
+    }
+
+    .project_miniature .your_work:first-child {
+        margin-top: 20px;
+    }
+
+    .project_all .social_network {
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+    .index .icon-down {
+        top: 65%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .contact .contact_info .contact_title {
+        margin-bottom: 5px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .contact .contact_info .contact_details {
+        font-size: 10px;
+        line-height: 23px;
+    }
+
+    .first_screen .banner h1 {
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .ui-dialog{
+        width: 310px!important;
+        margin: auto;
+    }
+
+    .dialog_email_form {
+        max-width: 270px;
+    }
+
+    .dialog_email_form .dialog_email {
+        width: 200px;
+    }
+
+    .dialog_button_form {
+        max-width: 290px;
+    }
+
+}
