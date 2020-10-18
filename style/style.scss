@@ -19,6 +19,7 @@ $font-nunito:  'Nunito Sans', sans-serif;
         padding: 25px 0 25px 0;
         .nav-link {
           font: 12px/12px $font-montserrat;
+          font-weight: 700;
           color: #191919;
           &:hover {
             color: #10c9c3;
@@ -76,6 +77,7 @@ p {
   padding-bottom: 140px;
   p {
     font: 12px/12px $font-montserrat;
+    font-weight: 700;
     color: #000000;
     margin-bottom: 16px;
     margin-top: 35px;
@@ -88,9 +90,6 @@ p {
     .progress-bar {
       background-color: #10c9c3;
     }
-  }
-  .gray {
-    background-color: #e9e9e9;
   }
 }
 
@@ -105,7 +104,75 @@ p {
   }
   p.quantity{
     font: 18px/18px $font-montserrat;
+    font-weight: 700;
     margin-bottom: 12px;
     margin-top: 17px;
+  }
+}
+
+.examples {
+  .photo {
+    height: 300px;
+    background-color: #dddddd;
+    padding: 0;
+    &:after {
+      position: absolute;
+      top: 125px;
+      left: 160px;
+      content: url("../images/eye.png");
+      display: block;
+    }
+    &:hover {
+      background-color: rgba(0,0,0, 0.8);
+      &:after {
+        display: block;
+      }
+    }
+  }
+  .gray{
+    background-color: #838383;
+  }
+}
+
+
+.process {
+  .video {
+    height: 570px;
+    background-color: #e9e9e9;
+    margin-bottom: 100px;
+    padding: 0;
+    .play-icon {
+      background-color: #10c9c3;
+      border-radius: 50%;
+      width: 85px;
+      height: 85px;
+      position: absolute;
+      left: 46%;
+      top: 42%;
+      &:after {
+        content: "\f0da";
+        position: absolute;
+        color: white;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 30px;
+        left: 39px;
+        top: 21px;
+      }
+    }
+  }
+}
+
+.service {
+  background-color: #f5f5f5;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  img {
+    margin-bottom: 20px;
+  }
+  .expert {
+    font: 12px/12px $font-montserrat;
+    font-weight: 700;
+    margin-bottom: 15px;
   }
 }
