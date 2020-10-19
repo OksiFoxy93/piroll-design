@@ -163,12 +163,22 @@ p {
   top: 125px;
   left: 160px;
   content: url("../images/eye.png");
-  display: block;
+  display: none;
 }
 @media screen and (max-width: 767px) {
   .examples .photo:after {
     top: 133px;
     left: 180px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .examples .photo:after {
+    left: 167px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .examples .photo:after {
+    left: 140px;
   }
 }
 .examples .photo:hover {
@@ -288,6 +298,12 @@ p {
     padding-top: 70px;
   }
 }
+@media screen and (max-width: 376px) {
+  .owl .owl-carousel .owl-content blockquote {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
 .owl .owl-carousel .owl-content p {
   font-size: 12px;
   font-weight: 700;
@@ -325,6 +341,11 @@ p {
 }
 .investors div {
   margin: 40px 40px 40px 40px;
+}
+@media screen and (max-width: 321px) {
+  .investors div {
+    margin: 20px 20px 20px 20px;
+  }
 }
 
 .need-project {

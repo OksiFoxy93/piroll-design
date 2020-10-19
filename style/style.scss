@@ -163,10 +163,16 @@ p {
       top: 125px;
       left: 160px;
       content: url("../images/eye.png");
-      display: block;
+      display: none;
       @media screen and (max-width: 767px) {
         top: 133px;
         left: 180px;
+      }
+      @media screen and (max-width: 376px) {
+        left: 167px;
+      }
+      @media screen and (max-width: 321px) {
+        left: 140px;
       }
     }
     &:hover {
@@ -278,6 +284,10 @@ p {
         @media screen and (max-width: 767px) {
           padding-top: 70px;
         }
+        @media screen and (max-width: 376px) {
+          font-size: 20px;
+          line-height: 30px;
+        }
       }
       p {
         font-size: 12px;
@@ -316,7 +326,9 @@ p {
   padding: 0!important;
   div {
     margin: 40px 40px 40px 40px;
-
+    @media screen and (max-width: 321px) {
+      margin: 20px 20px 20px 20px;
+    }
   }
 }
 
