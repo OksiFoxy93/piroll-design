@@ -158,12 +158,29 @@ p {
     background-color: #dddddd;
     padding: 0;
     overflow: hidden;
+    @media screen and (max-width: 1024px) {
+      height: 250px;
+    }
+    @media screen and (max-width: 768px) {
+      height: 200px;
+    }
+    @media screen and (max-width: 767px) {
+      height: 300px;
+    }
     &:after {
       position: absolute;
       top: 125px;
       left: 160px;
       content: url("../images/eye.png");
       display: none;
+      @media screen and (max-width: 1024px) {
+        left: 102px;
+        top: 115px;
+      }
+      @media screen and (max-width: 768px) {
+        left: 73px;
+        top: 88px;
+      }
       @media screen and (max-width: 767px) {
         top: 133px;
         left: 180px;
@@ -393,6 +410,9 @@ footer {
   }
   .contact {
     padding-left: 130px;
+    @media screen and (max-width: 1024px) {
+      padding-left: 0px;
+    }
     @media screen and (max-width: 767px) {
       padding: 0;
       padding-left: 15px;
@@ -401,6 +421,9 @@ footer {
   }
   .menu {
     padding-left: 60px;
+    @media screen and (max-width: 769px) {
+      padding-left: 0px;
+    }
     @media screen and (max-width: 767px) {
       padding-left: 15px;
       display: inline;
@@ -412,6 +435,14 @@ footer {
     }
   }
   .social_network {
+    ul {
+      @media screen and (max-width: 1024px) {
+        padding-left: 0px;
+      }
+    }
+    @media screen and (max-width: 769px) {
+      padding-left: 0px;
+    }
     @media screen and (max-width: 767px){
       display: inline;
     }

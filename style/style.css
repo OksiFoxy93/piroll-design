@@ -158,12 +158,39 @@ p {
   padding: 0;
   overflow: hidden;
 }
+@media screen and (max-width: 1024px) {
+  .examples .photo {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .examples .photo {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .examples .photo {
+    height: 300px;
+  }
+}
 .examples .photo:after {
   position: absolute;
   top: 125px;
   left: 160px;
   content: url("../images/eye.png");
   display: none;
+}
+@media screen and (max-width: 1024px) {
+  .examples .photo:after {
+    left: 102px;
+    top: 115px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .examples .photo:after {
+    left: 73px;
+    top: 88px;
+  }
 }
 @media screen and (max-width: 767px) {
   .examples .photo:after {
@@ -415,6 +442,11 @@ footer {
 footer .contact {
   padding-left: 130px;
 }
+@media screen and (max-width: 1024px) {
+  footer .contact {
+    padding-left: 0px;
+  }
+}
 @media screen and (max-width: 767px) {
   footer .contact {
     padding: 0;
@@ -425,6 +457,11 @@ footer .contact {
 footer .menu {
   padding-left: 60px;
 }
+@media screen and (max-width: 769px) {
+  footer .menu {
+    padding-left: 0px;
+  }
+}
 @media screen and (max-width: 767px) {
   footer .menu {
     padding-left: 15px;
@@ -434,6 +471,16 @@ footer .menu {
 @media screen and (max-width: 767px) {
   footer .menu .menu-right {
     padding-left: 35px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  footer .social_network ul {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 769px) {
+  footer .social_network {
+    padding-left: 0px;
   }
 }
 @media screen and (max-width: 767px) {
