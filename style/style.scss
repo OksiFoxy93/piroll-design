@@ -20,6 +20,23 @@ $font-nunito:  'Nunito Sans', sans-serif;
     position: fixed;
     width: 100%;
     z-index: 10;
+    nav {
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      .navbar-brand {
+        @media screen and (max-width: 767px) {
+          padding-top: 0;
+          margin-bottom: 8px;
+        }
+      }
+      ul {
+        @media screen and (max-width: 767px) {
+          text-align: center;
+        }
+      }
+    }
       .navbar-light {
         padding: 25px 0 25px 0;
         .nav-link {
@@ -36,7 +53,7 @@ $font-nunito:  'Nunito Sans', sans-serif;
           }
         }
       }
-    .navbar-collapse .collapse show {
+    .navbar-collapse .collapse .show {
       background-color: #e9e9e9;
     }
   }
@@ -145,7 +162,7 @@ p {
       top: 125px;
       left: 160px;
       content: url("../images/eye.png");
-      display: block;
+      display: none;
       @media screen and (max-width: 767px) {
         top: 133px;
         left: 180px;

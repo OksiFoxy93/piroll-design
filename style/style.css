@@ -18,6 +18,23 @@
   width: 100%;
   z-index: 10;
 }
+@media screen and (max-width: 767px) {
+  .main_banner header nav {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main_banner header nav .navbar-brand {
+    padding-top: 0;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main_banner header nav ul {
+    text-align: center;
+  }
+}
 .main_banner header .navbar-light {
   padding: 25px 0 25px 0;
 }
@@ -32,7 +49,7 @@
 .main_banner header .navbar-light .active .nav-link {
   color: #10c9c3;
 }
-.main_banner header .navbar-collapse .collapse show {
+.main_banner header .navbar-collapse .collapse .show {
   background-color: #e9e9e9;
 }
 .main_banner h1 {
@@ -145,7 +162,7 @@ p {
   top: 125px;
   left: 160px;
   content: url("../images/eye.png");
-  display: block;
+  display: none;
 }
 @media screen and (max-width: 767px) {
   .examples .photo:after {
