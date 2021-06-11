@@ -21,3 +21,12 @@ $(document).ready(function () {
     });
 
 });
+
+const loadBtn = document.querySelector('.load-btn');
+loadBtn.addEventListener('click', () => {
+    if (loadBtn.innerHTML === 'See more') {
+        loadBtn.innerHTML = 'See less'
+    } else if (loadBtn.innerHTML === 'See less') {
+        loadBtn.innerHTML = 'See more'
+    }
+})
